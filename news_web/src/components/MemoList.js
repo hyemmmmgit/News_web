@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import MemoListItem from './MemoListItem';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { AiFillCaretUp, AiFillCaretDown } from 'react-icons/ai';
 
 // const SliderWindow = styled.div`
