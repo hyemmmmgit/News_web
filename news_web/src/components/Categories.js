@@ -34,10 +34,11 @@ const categories = [
 
 const CategoriesBlock = styled.div`
   display: flex;
+  justify-content: space-around;
 `;
 
 const Category = styled.div`
-  padding: 28px;
+  padding: 28px 14px;
   cursor: pointer;
   ${(props) =>
     props.active &&

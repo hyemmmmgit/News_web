@@ -7,13 +7,6 @@ const NewsListBlock = styled.div`
   padding: 28px;
 `;
 
-const sampleArticle = {
-  title: '제목',
-  description: '내용',
-  url: 'https://google.com',
-  urlToImage: 'https://via.placeholder.com/160',
-};
-
 function NewsList({ category }) {
   const [loading, setLoding] = useState(false);
   const [articles, setArticles] = useState(null);

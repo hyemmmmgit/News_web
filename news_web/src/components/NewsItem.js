@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import noImage from '../img/Noimage.svg.png';
 
 const NewsItemBlock = styled.div`
   display: flex;
@@ -24,7 +25,7 @@ const NewsItemBlock = styled.div`
     }
   }
   & + & {
-    border-top: 1px solid black;
+    border-top: 1px solid #dcbd85;
   }
 `;
 
